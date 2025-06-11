@@ -2,6 +2,8 @@
 #    uv pip compile pyproject.toml
 annotated-types==0.7.0
     # via pydantic
+cryptography>=41.0.0
+    # via test-mcp (testserver.py)
 anyio==4.9.0
     # via
     #   httpx
